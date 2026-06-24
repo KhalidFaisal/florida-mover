@@ -1,9 +1,9 @@
 // Site-wide constants and data
 export const SITE_CONFIG = {
   companyName: 'Neat & Complete Relocation Services',
-  phone: '(561) 555-MOVE',
-  phoneRaw: '5615556683',
-  email: 'info@neatandcompleterelocation.com',
+  phone: '(631) 885-0800',
+  phoneRaw: '6318850800',
+  email: 'neatncompleteFL@gmail.com',
   licenseNumber: 'FL Mover Reg #IM0000',
   tagline: "South Florida's Trusted Local Moving Company",
   domain: 'https://neatandcompleterelocation.com',
