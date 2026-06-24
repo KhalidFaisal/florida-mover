@@ -74,6 +74,14 @@ export default function Footer() {
                 {SITE_CONFIG.phone}
               </a>
               <a
+                href={`tel:${SITE_CONFIG.secondaryPhoneRaw}`}
+                className="flex items-center gap-2.5 text-gray-300 hover:text-gold-400 transition-colors text-sm"
+                id="footer-phone-alt"
+              >
+                <Phone className="w-4 h-4 text-transparent" />
+                {SITE_CONFIG.secondaryPhone}
+              </a>
+              <a
                 href={`mailto:${SITE_CONFIG.email}`}
                 className="flex items-center gap-2.5 text-gray-300 hover:text-gold-400 transition-colors text-sm"
                 id="footer-email"

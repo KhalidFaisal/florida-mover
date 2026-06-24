@@ -3,6 +3,8 @@ export const SITE_CONFIG = {
   companyName: 'Neat & Complete Relocation Services',
   phone: '(631) 885-0800',
   phoneRaw: '6318850800',
+  secondaryPhone: '(631) 275-5908',
+  secondaryPhoneRaw: '6312755908',
   email: 'neatncompleteFL@gmail.com',
   licenseNumber: 'FL Mover Reg #IM0000',
   tagline: "South Florida's Trusted Local Moving Company",
