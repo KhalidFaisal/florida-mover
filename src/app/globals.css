@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply font-body text-gray-800 bg-white;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+
+  ::selection {
+    @apply bg-gold-400/30 text-navy-900;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 bg-gold-500 text-navy-900 font-bold 
+           text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 rounded-lg 
+           hover:bg-gold-400 transition-all duration-300 
+           shadow-gold hover:shadow-gold-lg hover:-translate-y-0.5 
+           active:translate-y-0 active:shadow-gold
+           focus:outline-none focus:ring-2 focus:ring-gold-400 focus:ring-offset-2 focus:ring-offset-navy-900;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 border-2 border-white text-white font-bold 
+           text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 rounded-lg 
+           hover:bg-white hover:text-navy-900 transition-all duration-300
+           hover:-translate-y-0.5
+           focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-navy-900;
+  }
+
+  .btn-secondary-dark {
+    @apply inline-flex items-center justify-center gap-2 border-2 border-navy-800 text-navy-800 font-bold 
+           text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 rounded-lg 
+           hover:bg-navy-800 hover:text-white transition-all duration-300
+           hover:-translate-y-0.5
+           focus:outline-none focus:ring-2 focus:ring-navy-700 focus:ring-offset-2;
+  }
+
+  .section-heading {
+    @apply text-3xl sm:text-4xl lg:text-5xl font-heading font-bold text-navy-900;
+  }
+
+  .section-subheading {
+    @apply text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto;
+  }
+
+  .card-premium {
+    @apply bg-white rounded-2xl p-6 sm:p-8 shadow-card hover:shadow-card-hover 
+           transition-all duration-300 hover:-translate-y-1 border border-gray-100;
+  }
+
+  .glass-card {
+    @apply bg-white/10 backdrop-blur-md rounded-xl border border-white/20 p-4 sm:p-6;
+  }
+
+  .animate-on-scroll {
+    @apply opacity-0 translate-y-8;
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+
+  .animate-on-scroll.visible {
+    @apply opacity-100 translate-y-0;
+  }
+
+  .gold-gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-gold-500 to-gold-300;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Leaflet map overrides */
+.leaflet-container {
+  @apply rounded-2xl;
+  font-family: inherit !important;
+}
+
+.leaflet-popup-content-wrapper {
+  @apply rounded-xl shadow-card-hover !important;
+}
+
+.leaflet-popup-content {
+  @apply font-body text-sm !important;
+  margin: 12px 16px !important;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-navy-700 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-navy-600;
+}
+
+/* Phone number link styling */
+a[href^="tel:"] {
+  @apply no-underline;
+}
+
+/* Sticky mobile CTA */
+.mobile-sticky-cta {
+  @apply fixed bottom-0 left-0 right-0 z-50 bg-navy-900/95 backdrop-blur-lg 
+         border-t border-white/10 p-3 flex gap-3 lg:hidden;
+  padding-bottom: calc(0.75rem + env(safe-area-inset-bottom, 0));
+}

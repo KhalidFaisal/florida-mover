@@ -1,0 +1,219 @@
+<USER_REQUEST>
+After reviewing the website and competitor research, I want to make some significant upgrades before launch. The goal isn’t just to have a nice website—the goal is to maximize phone calls, quote requests, trust, and SEO rankings.
+
+We will be servicing all of South Florida from Fort Pierce down to Miami, since I’ll be based in Port St. Lucie and my brother is based in Boca Raton. We want the website built around dominating this entire service area.
+
+My brother can provide anything needed for the website including:
+
+* Company photos
+* Truck photos
+* Crew photos
+* Logos
+* Branding assets
+* Before & after moving photos
+* Customer photos
+* Any other media needed
+
+Please prioritize using real company photos over stock images whenever possible.
+
+HERO SECTION REDESIGN
+
+The current hero feels generic.
+
+I want something that immediately builds trust and looks like a premium moving company.
+
+Headline:
+
+South Florida’s Trusted Local Moving Company
+
+Subheadline:
+
+Licensed & Insured Movers Serving Fort Pierce, Port St. Lucie, Jupiter, West Palm Beach, Boca Raton, Delray Beach, Fort Lauderdale & Miami.
+
+Trust badges directly under headline:
+
+⭐ 5-Star Rated Service
+
+✅ Licensed & Insured
+
+🚚 Professional Moving Team
+
+📍 Serving South Florida
+
+Buttons:
+
+Primary:
+GET FREE QUOTE
+
+Secondary:
+CALL NOW
+
+Phone number should always be visible in the header.
+
+MOBILE EXPERIENCE
+
+This is extremely important.
+
+I want:
+
+* Sticky Call Now button
+* Sticky Get Free Quote button
+* Fast loading
+* Large buttons
+* Mobile-first design
+* Easy quote form completion
+
+MULTI-STEP QUOTE FORM
+
+Replace current form with:
+
+Step 1:
+Moving From
+
+Step 2:
+Moving To
+
+Step 3:
+Move Date
+
+Step 4:
+Home Size
+
+Step 5:
+Contact Information
+
+Add progress indicator.
+
+Keep everything simple and conversion-focused.
+
+TRUST SECTION
+
+Immediately below hero.
+
+Title:
+
+Why Homeowners Trust Us
+
+Include:
+
+* Licensed & Insured
+* Transparent Pricing
+* No Hidden Fees
+* Experienced Movers
+* Locally Owned
+* Professional Equipment
+* Same-Day Availability
+
+GOO
+<truncated 711 bytes>
+ Lauderdale
+* Hollywood
+* Miami
+
+SEO PAGES
+
+Create dedicated pages for:
+
+* Fort Pierce Movers
+* Port St. Lucie Movers
+* Stuart Movers
+* Jupiter Movers
+* Palm Beach Gardens Movers
+* West Palm Beach Movers
+* Boynton Beach Movers
+* Delray Beach Movers
+* Boca Raton Movers
+* Deerfield Beach Movers
+* Pompano Beach Movers
+* Fort Lauderdale Movers
+* Hollywood Movers
+* Miami Movers
+
+Each page should have:
+
+* Unique content
+* Local SEO optimization
+* Local FAQs
+* Testimonials
+* Quote form
+* Internal links
+
+COMPARISON SECTION
+
+Add:
+
+Why Choose Us Over Other Movers?
+
+Feature | Us | Competitors
+
+Licensed & Insured | ✅ | Sometimes
+
+No Hidden Fees | ✅ | ❌
+
+Real Reviews | ✅ | ❌
+
+Locally Owned | ✅ | ❌
+
+Transparent Pricing | ✅ | ❌
+
+FAQ SECTION
+
+Include:
+
+* How much does moving cost?
+* Are you licensed and insured?
+* Do you offer packing services?
+* How far in advance should I book?
+* Do you offer same-day moving?
+
+FOOTER
+
+Include:
+
+* Phone Number
+* Email
+* Service Areas
+* License Number
+* Social Media Links
+* Google Reviews Link
+
+TRACKING
+
+Install:
+
+* Google Analytics 4
+* Google Tag Manager
+* Meta Pixel
+* Call Tracking
+
+Track:
+
+* Phone calls
+* Form submissions
+* Button clicks
+* Quote requests
+
+DESIGN STYLE
+
+I want the website to feel:
+
+* Premium
+* Professional
+* Modern
+* Trustworthy
+* High-end
+* Mobile-first
+* Conversion-focused
+
+When someone lands on the website, the immediate reaction should be:
+
+“These guys look professional, trustworthy, and easy to work with.”
+
+Before development begins, I’d like to see a homepage mockup/design concept so we can finalize the look and feel before everything gets built.
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-06-17T04:54:51+06:00.
+</ADDITIONAL_METADATA>
+<USER_SETTINGS_CHANGE>
+The user changed setting `Model Selection` from None to Claude Opus 4.6 (Thinking). No need to comment on this change if the user doesn't ask about it. If reporting what model you are, please use a human readable name instead of the exact string.
+</USER_SETTINGS_CHANGE>
