@@ -78,7 +78,7 @@ export default function Footer() {
                 className="flex items-center gap-2.5 text-gray-300 hover:text-gold-400 transition-colors text-sm"
                 id="footer-phone-alt"
               >
-                <Phone className="w-4 h-4 text-transparent" />
+                <Phone className="w-4 h-4 text-gold-500" />
                 {SITE_CONFIG.secondaryPhone}
               </a>
               <a
